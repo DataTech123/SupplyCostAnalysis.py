@@ -1,11 +1,17 @@
-This purchasing data analysis and forecast understand the selected one buyer’s supply cost in total price, monthly supply consumption, and forecast the next 12 months’ supply consumption demand.
- 
-Part 1:  By connecting the extracted CSV file for data exploration to clean the unnecessary data to prepare the desired data analysis.
-Calculate each supply unit price by using a division formula.
-Part 2: The analysis determines how many supplies are consumed within a month. 
-Calculate the total monthly supply quantity based on sales consumption. Understanding the trends in purchasing behavior for different buyers and items.
-Part 3: Prediction can forecast future supply needs using time series analysis. 
-By using an ARIMA model to the monthly supply data to capture the trend and seasonality. Using the fitted model to forecast future supply quantities for the next 12 months.
- 
-This is only an example to showcase my coding skills in Python. Depending on the job tasks, I will use the relevant library functions for in-depth data analysis.
-Thank you for your review and comments for further development.
+This project designs for a procurement department in use for monitoring one buyer’s purchase activity throughout a year, extracting the relevant PO date, item, and a total of price and quantity for an analytical report. 
+
+Python Code Explanation
+Part 1: Extracting Purchase Activity
+•	Objective: Select the purchase activity of a specific buyer, Aron Bergman, for the period from January to April 2022.
+•	Details: This part of the code extracts data related to the items purchased by Aron Bergman, including the unit price and total price for each item.
+
+Part 2: Projecting Future Consumption
+•	Objective: Estimate the total quantity of supplies that will be consumed over the next five months based on current purchase trends.
+•	Details: This projection is aimed at understanding the expected consumption in the upcoming months, assisting in inventory and supply chain planning.
+
+Part 3: Forecasting 12-Month Supply Consumption
+•	Objective: Forecast the total quantity of supplies that will be consumed over the next 12 months.
+•	Details: This forecast is based on historical data and trends, providing a long-term view of expected supply consumption for better procurement and budgeting decisions.
+
+Thank you for your review and welcome any questions for further development.
+
